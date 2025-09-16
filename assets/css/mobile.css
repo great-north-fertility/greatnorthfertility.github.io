@@ -38,6 +38,31 @@
 
 }
 
+/* Mobile Styles */
+@media (max-width: 768px) {
+  nav ul {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 100%;
+    background: #81bfca;
+    flex-direction: column;
+    align-items: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+
+  .menu-toggle:checked ~ ul {
+    max-height: 300px;
+  }
+}
+
+
 /* Media should never exceed container width */
 img, svg, video, canvas, iframe { max-width: 100%; height: auto; display: block; }
 
