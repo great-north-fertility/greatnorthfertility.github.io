@@ -408,6 +408,43 @@ nav ul li a:hover {
   border-radius: 3px;
 }
 
+.testimonials {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #fff; /* assuming white text on background */
+}
+
+.testimonial {
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  background: rgba(0, 0, 0, 0.6); /* subtle overlay for readability */
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #ffffff; /* semi-transparent dark */
+  max-width: 800px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Ensure center alignment */
+
+}
+
+.testimonial p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.testimonial br {
+  display: none; /* optional: remove the <br> spacing if you prefer tighter layout */
+}
+
+
 /* Mobile Styles */
 @media (max-width: 768px) {
   nav ul {
@@ -431,3 +468,4 @@ nav ul li a:hover {
     max-height: 300px;
   }
 }
+
