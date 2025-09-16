@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 url: "https://great-north-fertility.github.io"
-baseurl: ""
+baseurl: "/greatnorthfertility.github.io/"
 repository:
 title: "Great North Fertility" # the name of your site, e.g. ACME Corp.
 description: "Bespoke fertility care in Newcastle"
