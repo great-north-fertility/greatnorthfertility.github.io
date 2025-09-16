@@ -1,0 +1,53 @@
+/* ==================================================================
+   Great North Fertility — mobile.css
+   Responsive overrides for small screens (≤768px)
+   ================================================================== */
+
+@media (max-width: 768px) {
+
+  /* Hero & header */
+  .hero { height: auto; padding: 3rem 1rem; }
+  .hero h1 { font-size: 2rem; line-height: 1.2; max-width: 100%; }
+  .hero p { font-size: 1rem; max-width: 100%; }
+
+  .header { height: auto; padding: 2rem 1rem; }
+  .header h1 { font-size: 1.75rem; }
+
+  .hero-content {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  /* Navigation: stack links instead of inline */
+  nav ul {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav ul li a {
+    font-size: 1rem;
+  }
+
+  /* Treatments section */
+  .treatments-section {
+    background-attachment: scroll; /* fix iOS issue */
+    padding: 2rem 1rem;
+  }
+
+  /* Three column overlay stacks into one */
+  .three-column-content {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  /* Tables: make text smaller so they fit better */
+  table, .ivf-table-wrapper table {
+    font-size: 0.85rem;
+  }
+  th, td { padding: 0.5rem; }
+
+}
