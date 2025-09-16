@@ -7,7 +7,7 @@
 
   /* Hero & header */
   .hero { height: auto; padding: 3rem 1rem; }
-  .hero h1 { font-size: 2rem; line-height: 1.2; max-width: 100%; }
+  .hero h1 { font-size: 2rem; line-height: 1.2; font-weight: 600; max-width: 100%; }
   .hero p { font-size: 1rem; max-width: 100%; }
 
   .header { height: auto; padding: 2rem 1rem; }
