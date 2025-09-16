@@ -52,3 +52,24 @@
   th, td { padding: 0.5rem; }
 
 }
+
+/* --- Horizontal overflow guards --- */
+html, body { overflow-x: hidden; }
+
+/* Media should never exceed container width */
+img, svg, video, canvas, iframe { max-width: 100%; height: auto; display: block; }
+
+/* Long words/URLs shouldn’t blow out layout */
+* { box-sizing: border-box; }
+a, p, li, h1, h2, h3, h4, h5, h6 { overflow-wrap: anywhere; }
+
+/* Tables: allow horizontal scroll inside, not the page */
+table { max-width: 100%; }
+.table-wrap, .ivf-table-wrapper { overflow-x: auto; }
+
+/* Known offenders in your CSS */
+.hero::before { left: 0; top: 0; width: 100%; height: 100%; right: auto; bottom: auto; background-attachment: scroll; }
+.treatments-section { background-attachment: scroll; } /* iOS fix */
+
+/* Nav flex lines shouldn’t create fractional overflow */
+nav ul { margin: 0; padding: 0; }
