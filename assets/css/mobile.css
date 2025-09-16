@@ -81,4 +81,50 @@ table { max-width: 100%; }
 /* Nav flex lines shouldn’t create fractional overflow */
 nav ul { margin: 0; padding: 0; }
 
+/* 1) Turn off parallax on mobile/iOS (prevents stuck/zoomed backgrounds) */
+@media (hover: none), (pointer: coarse) {
+  .parallax, .bg-fixed, .section--image, .testimonials-bg, .contact-bg {
+    background-attachment: scroll !important; /* no fixed on iPhone */
+  }
+}
+
+/* Extra iOS-specific safety net */
+@supports (-webkit-touch-callout: none) {
+  .parallax, .bg-fixed, .section--image, .testimonials-bg, .contact-bg {
+    background-attachment: scroll !important;
+  }
+}
+
+/* 2) Make full-height sections behave on iOS
+   - 100svh = small viewport height (ignores browser bars)
+   - Fallback to 100vh for older browsers
+*/
+.section,
+.hero,
+.testimonials,
+.contact {
+  min-height: 100vh;
+  min-height: 100svh; /* preferred on iOS 16+ */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; /* avoids “massively enlarged” look */
+  /* If you had background-size: auto or contain, switch to cover */
+}
+
+/* If any wrapper was using transform or perspective, it can break position: fixed.
+   Neutralize transforms for the parallax container on mobile. */
+@media (hover: none), (pointer: coarse) {
+  .parallax-wrapper {
+    transform: none !important;
+    will-change: auto;
+  }
+}
+
+/* Optional: prevent accidental page lock from modals/banners */
+body.is-modal-open,
+html.is-modal-open {
+  position: static !important;
+  overflow: auto !important;
+}
+
 
