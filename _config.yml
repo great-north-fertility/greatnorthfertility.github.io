@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
-url: "https://greatnorthfertility.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://great-north-fertility.github.io"
+baseurl: "/greatnorthfertility.github.io"
 repository: great-north-fertility/greatnorthfertility.github.io
 title: "Great North Fertility" # the name of your site, e.g. ACME Corp.
 description: "Bespoke fertility care in Newcastle"
