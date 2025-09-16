@@ -50,7 +50,7 @@ table { max-width: 100%; }
 .table-wrap, .ivf-table-wrapper { overflow-x: auto; }
 
 /* Known offenders in your CSS */
-/*.hero::before { left: 0; top: 0; width: 100%; height: 100%; right: auto; bottom: auto; background-attachment: scroll; }*/
+.hero::before { left: 0; top: 0; width: 100%; height: 100%; right: auto; bottom: auto; background-attachment: scroll; }
 .treatments-section { background-attachment: scroll; } /* iOS fix */
 
 /* Nav flex lines shouldn’t create fractional overflow */
