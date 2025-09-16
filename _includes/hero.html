@@ -1,5 +1,14 @@
-<header class="hero" style="background-image: url('{{ site.baseurl }}/assets/images/home.mp4');">
+<header class="hero">
+  <video class="hero-video" autoplay muted playsinline loop>
+    <source src="{{ site.baseurl }}/assets/images/home.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/images/home.webm" type="video/webm">
+    <!-- Optional poster image while video loads -->
+    <img src="{{ site.baseurl }}/assets/images/home-poster.jpg" alt="">
+  </video>
+
+  <div class="hero">
     <h1>Welcome to {{ site.title }}</h1>
     <p>{{ site.description }} by <b>Dr Matt Prior</b></p>
     <a href="{{ "/contact/" | relative_url }}" class="cta-button">Book a Consultation</a>
+  </div>
 </header>
