@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-url: "https://great-north-fertility/greatnorthfertility.github.io"
+url: "https://greatnorthfertility.github.io"
 baseurl: ""
 repository: greatnorthfertility.github.io
 title: "Great North Fertility" # the name of your site, e.g. ACME Corp.
