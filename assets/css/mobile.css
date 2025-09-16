@@ -53,9 +53,6 @@
 
 }
 
-/* --- Horizontal overflow guards --- */
-html, body { overflow-x: hidden; }
-
 /* Media should never exceed container width */
 img, svg, video, canvas, iframe { max-width: 100%; height: auto; display: block; }
 
@@ -73,3 +70,5 @@ table { max-width: 100%; }
 
 /* Nav flex lines shouldn’t create fractional overflow */
 nav ul { margin: 0; padding: 0; }
+
+

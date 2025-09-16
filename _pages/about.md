@@ -17,7 +17,8 @@ Compassion and support – We know fertility challenges can feel overwhelming. Y
 ## Meet Dr Matt Prior
 
 <p align="center">
-  <img src="/assets/images/matt-prior.jpg" alt="Dr Matt Prior" width="400">
+
+  <img src="{{ site.baseurl }}/assets/images/matt-prior.jpg" alt="Dr Matt Prior" width="400">
 </p>
 
 Great North Fertility is led by [Dr Matt Prior](https://drmattprior.com), Consultant Gynaecologist and Fertility Specialist.
