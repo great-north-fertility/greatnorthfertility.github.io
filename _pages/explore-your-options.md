@@ -29,4 +29,4 @@ Fertility preservation isn’t for everyone, but if you're considering it, an ea
 
 **Protect your future fertility. Start the conversation today.**
 
-<a href="{{ "/contact/" | relative_url }}" class="cta-button">Book a Consultation</a>
+<a href="{{ "/contact" | relative_url }}" class="cta-button">Book a Consultation</a>

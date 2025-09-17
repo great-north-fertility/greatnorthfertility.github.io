@@ -51,5 +51,5 @@ Getting a fertility assessment is about clarity and confidence. It’s a step to
 
 **We’re here to help.**
 
-<a href="{{ "/contact/" | relative_url }}" class="cta-button">Book a Consultation</a>
+<a href="{{ "/contact" | relative_url }}" class="cta-button">Book a Consultation</a>
 

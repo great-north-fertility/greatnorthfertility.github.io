@@ -35,4 +35,4 @@ You don’t need a referral to speak to us. Whether you want a one-off consultat
 
 **Let’s take the next step together.**
 
-<a href="{{ "/contact/" | relative_url }}" class="cta-button">Book a Consultation</a>
+<a href="{{ "/contact" | relative_url }}" class="cta-button">Book a Consultation</a>

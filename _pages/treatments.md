@@ -52,4 +52,4 @@ Our expert team will help you decide whether testing is right for you and explai
 
 Every treatment plan at Great North Fertility is built around your personal circumstances. We’ll be honest, open, and with you from your first appointment through to your final steps.  
 
-<a href="{{ "/contact/" | relative_url }}" class="cta-button">Book a Consultation</a>
+<a href="{{ "/contact" | relative_url }}" class="cta-button">Book a Consultation</a>
