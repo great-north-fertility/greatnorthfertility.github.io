@@ -60,6 +60,9 @@
   .menu-toggle:checked ~ ul {
     max-height: 300px;
   }
+  .testimonials{
+    background-attachment: scroll;
+  }
 }
 
 
