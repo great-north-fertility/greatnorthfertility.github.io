@@ -44,5 +44,5 @@ At Great North Fertility, we know fertility treatment is more than just medicine
 
 Book a Consultation or [Contact Us](/contact) to help your fertility journey today.
 
-<a href="{{ "/contact/" | absolute_url }}" class="cta-button">Book a Consultation</a>
+<a href="{{ "/contact" | absolute_url }}" class="cta-button">Book a Consultation</a>
 
