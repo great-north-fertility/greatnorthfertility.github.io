@@ -10,9 +10,9 @@ At Great North Fertility, we believe every fertility journey is unique. Our miss
 
 ## Our Approach
 
-Patient-centred care – We listen to your story and create a treatment plan that works for you.
-Evidence-based medicine – All our advice and treatments are grounded in the latest research and best practice.
-Compassion and support – We know fertility challenges can feel overwhelming. You’ll always find empathy, respect, and clear answers here.
+1. **Patient-centred care** - We listen to your story and create a treatment plan that works for you.
+2. **Evidence-based medicine** – All our advice and treatments are grounded in the latest research and best practice.
+3. **Compassion and support** – We know fertility challenges can feel overwhelming. You’ll always find empathy, respect, and clear answers here.
 
 ## Meet Dr Matt Prior
 

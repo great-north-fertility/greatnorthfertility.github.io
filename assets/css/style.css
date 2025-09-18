@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { font-size: 3.25rem; font-weight: 300; }
 h2 { font-size: 1.75rem; font-weight: 600; margin-bottom: 1rem; }
 h3 { font-size: 1.5rem;  font-weight: 600; margin-bottom: 1rem; }
+h4 { font-size: 1.25rem;  font-weight: 600; margin-bottom: 1rem; }
 
 /* =============================================================
    Layout
@@ -211,6 +212,22 @@ nav ul li a:hover { color: #000; }
 }
 .cta-button:hover { background-color: var(--color-accent-hover); }
 
+/* WhatsApp Button */
+.wa-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--color-white);
+  background-color: var(--color-wa);
+  border: none;
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+.wa-button:hover { background-color: var(--color-accent-hover); }
+
 /* Treatments cards over image */
 .treatments-section { background-size: cover; background-position: center; padding: 100px 20px; position: relative; color: var(--color-white); }
 .overlay { background-color: rgba(0,0,0,0.0); padding: 50px 20px; border-radius: 16px; }
@@ -239,10 +256,11 @@ footer a:hover { color: var(--color-accent-hover); }
   position: fixed;
   inset-inline: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.9);
+  background: var(--color-accent);
+  opacity: 80%;
   color: var(--color-white);
   text-align: center;
-  padding: 15px;
+  padding: 25px;
   display: none; /* toggled via JS */
   z-index: 9999;
 }

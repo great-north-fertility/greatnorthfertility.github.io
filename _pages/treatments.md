@@ -10,7 +10,7 @@ At **Great North Fertility**, we understand that every fertility journey is diff
 
 ### IVF / ICSI
 
-**In Vitro Fertilisation (IVF)** is one of the most effective treatments for infertility. It involves fertilising eggs with sperm in a laboratory, before transferring embryos back into the womb.  
+**In Vitro Fertilisation (IVF)** is one of the most effective treatments for infertility. It involves fertilising eggs with sperm in a laboratory, before transferring embryos back into the womb.
 
 Sometimes we recommend **Intracytoplasmic Sperm Injection (ICSI)**, where a single sperm is carefully injected into the egg. This approach is often helpful if sperm numbers are low or sperm quality is reduced.  
 
@@ -26,7 +26,7 @@ Egg freezing may be worth considering if:
 * You’re about to undergo medical treatment that could affect fertility  
 * You’d like the reassurance of knowing you have options later  
 
-Our team will guide you through the whole process, from your first consultation to secure long-term storage.
+We will guide you through the whole process, from your first consultation to secure long-term storage.
 
 ### Donor Treatments
 
