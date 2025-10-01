@@ -1,0 +1,26 @@
+{% assign clinic_name = site.title | default: "Great North Fertility" %}
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"MedicalClinic",
+  "name":"{{ clinic_name | escape }}",
+  "url":"{{ site.url | append: site.baseurl }}",
+  "description":"{{ site.description | escape }}",
+  "telephone":"+44 191 694 1232",
+  "medicalSpecialty":"ReproductiveHealth",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Bespoke Clinic,51 Osborne Road",
+    "addressLocality":"Newcastle upon Tyne",
+    "postalCode":"NE2 2AH",
+    "addressCountry":"GB"
+  },
+  "openingHours":"Mo-Fr 08:30-17:00",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude":"54.9784",
+    "longitude":"-1.6174" 
+  },
+  // "image": "https://greatnorthfertility.co.uk/assets/logo.png" <!-- ideally a 1200×630 photo (logo or clinic frontage).-->
+}
+</script>

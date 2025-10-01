@@ -1,18 +1,26 @@
 #-------------------------------
-# General Site Settings
+# General Site Settings (STAGING)
 url: "https://great-north-fertility.github.io"
 baseurl: "/greatnorthfertility.github.io"
-repository:
-title: "Great North Fertility" # the name of your site, e.g. ACME Corp.
+# General Site Settings (PRODUCTION)
+# url: "https://greatnorthfertility.co.uk"
+# baseurl: ""  # IMPORTANT: empty on the real domain
+title: "Great North Fertility"
 description: "Bespoke fertility care in Newcastle"
 
 #-------------------------------
+
+
+
 # Build settings
 markdown: kramdown
-
 permalink: /:title
+
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-redirect-from
 
 # Pages Path
 defaults:
@@ -20,13 +28,14 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
-
+  - scope:
+      path: ""
+    values:
+      lang: en-GB
+      image: /assets/images/home-poster.jpg  # create this image (1200x630)
 
 include:
   - _pages
 
 sass:
   style: compressed
-
-
-#-------------------------------
