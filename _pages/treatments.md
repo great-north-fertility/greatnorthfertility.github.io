@@ -14,7 +14,7 @@ At **Great North Fertility**, we understand that every fertility journey is diff
 
 Sometimes we recommend **Intracytoplasmic Sperm Injection (ICSI)**, where a single sperm is carefully injected into the egg. This approach is often helpful if sperm numbers are low or sperm quality is reduced.  
 
-At Great North Fertility, all laboratory-based IVF and ICSI procedures take place at our trusted partner clinic, **Manchester Fertility**, giving you the reassurance of high-quality care in a state-of-the-art setting.
+At Great North Fertility we will provide your initial treatment investigations, treatment planning, scans and other appointments that don't require a HFEA licence. The parts of your treatment that do require a HFEA licence, such as your egg collection and embryo transfer, will be conducted by the award-winning team at the state-of-the-art clinic in South Manchester.
 
 ### Egg freezing
 
